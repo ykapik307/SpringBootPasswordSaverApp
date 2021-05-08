@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200", allowedHeaders = {"Accept-Language","Authorization"})
+@CrossOrigin(origins = "*", allowedHeaders = {"Accept-Language","Authorization"})
 public class Home {
 
 	@RequestMapping("/welcome")
