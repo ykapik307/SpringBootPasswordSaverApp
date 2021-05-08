@@ -20,7 +20,7 @@ import com.jwtAuthentication.modelData.JwtResponse;
 
 //to generate the token for the first time
 @RestController
-@CrossOrigin(origins = "http://localhost:4200", allowedHeaders = {"Accept-Language","Authorization"})
+@CrossOrigin(origins = "*", allowedHeaders = {"Accept-Language","Authorization"})
 public class JwtController {
 	
 	@Autowired
