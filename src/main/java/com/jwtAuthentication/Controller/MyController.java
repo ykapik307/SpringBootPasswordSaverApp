@@ -17,7 +17,7 @@ import com.jwtAuthentication.Entities.Application;
 import com.jwtAuthentication.Services.AppService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200", allowedHeaders = {"Accept-Language","Authorization"})
+@CrossOrigin(origins = "*", allowedHeaders = {"Accept-Language","Authorization"})
 public class MyController {
 	
 	
